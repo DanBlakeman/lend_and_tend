@@ -1,22 +1,27 @@
-# Lend and Tend - airbnb for gardens!
+[![Build Status](https://travis-ci.org/DanBlakeman/lend_and_tend.svg)](https://travis-ci.org/DanBlakeman/lend_and_tend)
+[![Coverage Status](https://coveralls.io/repos/DanBlakeman/lend_and_tend/badge.svg)](https://coveralls.io/r/DanBlakeman/lend_and_tend)
 
-## About
+# Lend and Tend
 
-Created within 10 days: the idea was pitched to us by a social enterprise entrepeneur looking to turn their idea into a business, four of us then had 10 days to work with the client to create a MVP suiting their needs.
+## The airbnb for gardens!
 
-Lend and Tend, lets Londoners with gardens (and little time/interest in them) list their gardens, and those with no outdoor space to securely get in touch to rent/use them!
+Created within 10 days by a team of four as a [Makers Academy](http://www.makersacademy.com/) final project.
+
+The idea was pitched to us by a social enterprise entrepeneur looking to turn their idea into a business fast, four of us then had 10 days to work with the client to create a MVP suiting their needs.
+
+Lend and Tend lets Londoners with gardens and little time/interest in them, list their gardens; and those with no outdoor space to securely get in touch to rent/use them!
 
 ![Screenshot](public/screenshot.png)
 
 ## Approach
 
-From the clients breif we extracted key user stories, and put these into an ordered backlog on a kanban service called Trello.
+From the clients brief and we extracted key user stories, and put these into an ordered backlog on a kanban service called Trello.
 
 With twice daily standups we then paired upon working our way through each user story.
 
 We celebrated MVP milestones and presented to the client each time we had enough new functionality to warrant a new release.
 
-All work was BDD test driven using rspec and capybara, and each time tests passed new code was automatically deployed to our heroku staging server.
+All work was BDD test driven from the below user stories using rspec and capybara, each time tests passed new code was automatically deployed to our heroku staging server for the client and ourselves to try.
 
 
 ### User Stories
@@ -30,8 +35,6 @@ I want to advertise my garden on this service
 As a tender
 So I can find a garden to tend
 I want to view a list of gardens
-
-----> MVP1
 
 As a lender
 So I can protect my personal details
@@ -48,8 +51,6 @@ I want to sign up
 As a tender
 So I can view potential gardens to tend
 I want to sign up
-
-----> MVP2
 
 
 #### 2nd priority (Main Business Priorities)
@@ -102,7 +103,7 @@ I want to manually filter the images that go on my homepage
 
 Visit [the Lend and Tend staging server](http://pacific-tundra-1942.herokuapp.com) to try the latest iteration of the service for yourself.
 
-### Run on your localhost
+### Run locally
 
 clone and download this repo.
 ```
@@ -113,6 +114,7 @@ rails s
 open http://localhost:3000 in your favourite browser.
 
 ### Run tests
+
 clone and download this repo.
 ```
 cd lend_and_tend
@@ -121,16 +123,16 @@ rspec
 
 ## Technologies Used
 
-Ruby on Rails - Framework
-JS - Interactive photowall
-PostgreSQL - DB
-RSpec, Capybara, Shoulda - Testing
-Geocoder gem - Distances
-HAML/Bootstrap/Sass - Markup and stylcing
-Devise/Omniauth - User management
-AWS - Photo hosting
-Gibbon - Intergration with mailchimp
-Will Paginate - Paginating results
-Heroku, Git - Version control, auto deployment and hosting
+- Ruby on Rails - Framework
+- JS - Interactive photowall
+- PostgreSQL - DB
+- RSpec, Capybara, Shoulda - Testing
+- Geocoder gem - Distances
+- HAML/Bootstrap/Sass - Markup and styling
+- Devise/Omniauth - User management
+- AWS - Photo hosting
+- Gibbon - Intergration with mailchimp
+- Will Paginate - Paginating results
+- Heroku, Git - Version control, auto deployment and hosting
 
 
