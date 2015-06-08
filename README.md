@@ -135,4 +135,16 @@ rspec
 - Will Paginate - Paginating results
 - Heroku, Git - Version control, auto deployment and hosting
 
+## How to contribute?
+
+We're looking to keep working with the client to keep growing and developing the project as part of her team in our spare time.
+
+If you're interested in joining us, for some weekend pair programming, or just have some feedback/advice or ideas, simply send an email or leave a pull request.
+
+We love to hear feedback!
+
+Thanks for reading,
+
+Dan
+
 
